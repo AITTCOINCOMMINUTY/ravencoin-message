@@ -13,7 +13,7 @@ $parcel$export(module.exports, "verifyMessage", () => $80bd448eb6ea085b$export$2
 
 
 var $80bd448eb6ea085b$require$Buffer = $g5Y9E$buffer.Buffer;
-const $80bd448eb6ea085b$var$MESSAGE_PREFIX = "\x16Raven Signed Message:\n";
+const $80bd448eb6ea085b$var$MESSAGE_PREFIX = "\x16AITTCOIN Signed Message:\n";
 function $80bd448eb6ea085b$export$c5552dfdbc7cec71(message, privateKey, compressed = true) {
     const signature = (0, ($parcel$interopDefault($g5Y9E$bitcoinjsmessage))).sign(message, privateKey, compressed, $80bd448eb6ea085b$var$MESSAGE_PREFIX);
     return signature.toString("base64");

@@ -4,7 +4,7 @@ import $hCgyA$bitcoinjsmessage from "bitcoinjs-message";
 
 
 var $c3f6c693698dc7cd$require$Buffer = $hCgyA$Buffer;
-const $c3f6c693698dc7cd$var$MESSAGE_PREFIX = "\x16Raven Signed Message:\n";
+const $c3f6c693698dc7cd$var$MESSAGE_PREFIX = "\x16AITTCOIN Signed Message:\n";
 function $c3f6c693698dc7cd$export$c5552dfdbc7cec71(message, privateKey, compressed = true) {
     const signature = (0, $hCgyA$bitcoinjsmessage).sign(message, privateKey, compressed, $c3f6c693698dc7cd$var$MESSAGE_PREFIX);
     return signature.toString("base64");
